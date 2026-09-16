@@ -1,0 +1,6 @@
+{
+  "name": "AI Video Studio",
+  "description": "Production-ready AI Video Generator with text-to-video, image-to-video, scene builder, camera motion, and modular video provider architecture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

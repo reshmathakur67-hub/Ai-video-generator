@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Lens / Film Ring (Within 66dp safe zone: center 54, radius ~24) -->
+    <path
+        android:strokeWidth="3.5"
+        android:pathData="M54,28 A26,26 0 1,0 54,80 A26,26 0 1,0 54,28 Z">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:endX="78"
+                android:endY="78"
+                android:startX="30"
+                android:startY="30"
+                android:type="linear">
+                <item android:color="#7C4DFF" android:offset="0.0" />
+                <item android:color="#00E5FF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Play Triangle -->
+    <path
+        android:pathData="M48,42 L66,54 L48,66 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="66"
+                android:endY="66"
+                android:startX="48"
+                android:startY="42"
+                android:type="linear">
+                <item android:color="#FFFFFF" android:offset="0.0" />
+                <item android:color="#D1C4E9" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- AI Sparkle / Star top right -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M73,34 L75,39 L80,41 L75,43 L73,48 L71,43 L66,41 L71,39 Z" />
+
+    <!-- AI Sparkle bottom left -->
+    <path
+        android:fillColor="#80D8FF"
+        android:pathData="M35,67 L36.5,70.5 L40,72 L36.5,73.5 L35,77 L33.5,73.5 L30,72 L33.5,70.5 Z" />
+</vector>
