@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+torch
+torchvision
+diffusers
+transformers
+accelerate
+safetensors
+sentencepiece
+imageio
+imageio-ffmpeg
+Pillow
